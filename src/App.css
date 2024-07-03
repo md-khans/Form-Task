@@ -1,0 +1,27 @@
+.container-background {
+    background-size: cover;
+    background-position: right top;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 20px;
+}
+.image{
+  max-width: 100%;
+  margin-left: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+  
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-left: auto;
+    border-radius: 8px; 
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
