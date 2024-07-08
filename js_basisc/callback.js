@@ -1,0 +1,46 @@
+function processData(input, callback) {
+  return callback(input);
+}
+
+function toUpperCase(str) {
+  return str.toUpperCase();
+}
+console.log(processData("hello world", toUpperCase));
+
+function ForEachElement(arr,callback) {
+  for (let i = 0; i < arr.length; i++) {
+  callback(arr[i], i);
+      }
+}
+ForEachElement([1,2,3,4,5], (Element,i) => {
+  console.log(`Element ${i}: ${Element * 2}`)
+})
+
+// function processData(input, callback) {
+//   return callback(input);
+// }
+
+// function toUpperCase(str) {
+//   return str.toUpperCase();
+// }
+
+// // Using the function
+// console.log(processData("hello world", toUpperCase));
+
+
+// var a = 7;
+// var b = 3;
+// console.log("a + b")
+
+
+// function myFunction(a, b) {
+  //     console.log(a * b);
+  //   }
+  
+  
+// var x = solveMeFirst(7, 3);
+
+// function solveMeFirst(a , b) {
+//   console.log(a + b);
+// }
+
