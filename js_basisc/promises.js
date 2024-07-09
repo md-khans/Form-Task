@@ -1,12 +1,15 @@
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
-
-while (condition) {
-    
-}
-
-do {
-    
-} while (condition);
+let promise = new Promise(function(resolve, reject)  {
+    setTimeout(function() {
+        let success = true;
+        if (success) {
+            resolve("operation successful");
+        } else {
+            reject ("Operation failed");
+        }
+    }, 2000);
+});
+promise.then(function(result) {
+    console.log("Success:", result);    
+}).catch(function(Error) {
+    console.log("Error:", Error)
+});
