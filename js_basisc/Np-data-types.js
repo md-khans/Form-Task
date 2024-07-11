@@ -23,7 +23,6 @@ const fruitwithtext = upperCaseFruits.map(function(fruit) {
 
 const fruitObject = fruitwithtext.map(function(fruit) {
     return {
-        // Number: fruit.indexOf,
         Name: fruit,
         length: fruit.length
     }

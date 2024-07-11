@@ -17,3 +17,8 @@ if (false) {
     console.log(umar)
 }
 console.log(umar)
+
+function getmyName() {
+    return "hello world"
+}
+console.log(getmyName())
